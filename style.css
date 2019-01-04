@@ -1,0 +1,118 @@
+
+
+
+body{
+    width : 100%;
+    margin : 0px;
+    padding : 0px;
+    color : white;
+    }
+#search_bar{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    }
+.container_blue{
+    background-image: url("photos/fond.jpg");
+    background-size: cover;
+    padding: 30px;
+    }
+
+#titre_h4{
+    text-align: left;
+    padding-left: 10%;
+    font-style: italic;
+    font-weight: 100 !important;
+    }
+
+#titre_h1{
+    text-align: right;
+    padding-right: 20%;
+    margin-top: 20px;
+    }
+
+
+#photos_texte{
+	padding: 20px;
+	}
+
+#carousel, #texte {
+    display: inline-block;
+    }
+
+#myCarouselphotos{
+    width:100%;
+    height: auto;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.carousel-inner{
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+
+    }
+
+.carousel-inner img {
+    max-width: 160px;
+    max-height: 300px;
+    }
+
+.active{
+      	display: inline-block;
+      }
+
+.ligne_horizontale{
+    background-image: url("photos/trait.png");
+    height: 25px;
+    width: 100%; 
+    display: block;
+    }
+
+#logo-slide{
+	margin: 3%;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    }
+
+ #logo-slide img{
+   width: 130px;
+
+ }
+
+
+
+#footer{
+    text-align: center;
+    }
+
+#nav, #footer{
+    background: #4a95ce !important;
+    }
+
+@media screen and (max-width: 1200px){
+
+    #titre_h4, #titre_h1{
+      	padding: 0px;
+		text-align: center;
+      	}
+    #carousel, #texte {
+      	width: 100%;
+      	margin-right: 0px;
+      	margin-left: 0px;
+        }
+
+    #texte{
+      	margin-top: 20px;
+        }
+    .mentions{
+      	color:#003570 !important;
+      }
+  }
+
+
+
